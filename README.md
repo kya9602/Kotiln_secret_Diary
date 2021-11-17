@@ -1,8 +1,9 @@
+# 비밀 다이어리 어플
 NumberPicker 3개로 비밀번호를 입력받고 비밀번호를 어플에 저장하여
 EditText내용을 어플에 저장하는 어플.
 
 
-#패스워드 변경(changepasswardButton)
+## 패스워드 변경(changepasswardButton)
 changePasswordMode 가 ture 로 바뀌면 비밀번호 변경 모드를 실행하고 다른행동(open버튼) 을 사용 할 수 없도록 해야한다.
 
 1. 패스워드가 올바를때
@@ -17,7 +18,7 @@ changePasswordMode가 true 일때는 Toast메세지 출력 후 return@setOnClick
 실패 AlerDialog 출력
 
 
-#다이어리 열기(openButton)
+## 다이어리 열기(openButton)
 1.패스워드가 올바를때
 passwordFromUser유저가 입력한 값이 passwordferences에 저장된 일치하면
 DiaryActivity를 연결
@@ -25,7 +26,7 @@ DiaryActivity를 연결
 2.패스워드가 틀릴때
 실패 AlerDialog 출력
 
-#다이어리 저장
+## 다이어리 저장
 1. 다이어리를 getSharedPreferences 함수, edit 함수 를 이용해 저장하고
 
 2. 자동저장
